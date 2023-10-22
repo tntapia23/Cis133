@@ -74,3 +74,17 @@ h3 {
     max-width: 2048px;
     box-shadow: 3px 3px 3px #777;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+li :link, :visited{
+    color: #002171;
+}
+li :hover{
+    background-color: #1976D2;
+    color: #002171;
+}
